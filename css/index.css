@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+:root {
+    font-size: 17px;
+}
+
+* {
+    font-size: 2em;
+}
+
+.marked,
+aside.some-aside p {
+    color: rgba(57, 39, 163, 0.5);
+}
+
+
+div + p {
+    color: red;
+}
+
+p:hover {
+    color: red;
+}
+
+
+p::before {
+    content: "<";
+    color: green;
+    
+}
+
+p::after {
+    content: ">";
+    color: green;
+}
+
+span.first {
+    color: red;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
